@@ -5,6 +5,7 @@ import configureStore from "./store/configureStore";
 import App from "./components/App";
 import Seasons from "./components/seasons/seasons";
 import initialState from "./reducers/initialState";
+import './index.css';
 
 const store = configureStore(initialState);
 render(

@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import shortId from "shortid";
 
 const AddEpisode = ({ parentId, addEpisode }) => {
-  console.log(parentId);
   let input;
   return (
-    <div>
+    <div className="add-episode">
+    <span>Add Episode:</span><br/>
       <input
         type="text"
         ref={node => {

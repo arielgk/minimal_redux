@@ -5,18 +5,21 @@ import { bindActionCreators } from "redux";
 import * as seasonsActions from "../../actions/seasonsActions";
 import SeasonList from "./SeasonList";
 import AddSeason from "./AddSeason";
+import './Seasons.css';
 
 const Seasons = ({ state, actions }) => {
   console.log(actions);
 
   return (
-    <div>
+    <div >
+     
+      <SeasonList seasons={state.seasons} episodes={state.episodes} />
+      <span>Add Season</span>  
       <AddSeason
         onSave={season => {
           actions.addItem(season);
         }}
       />
-      <SeasonList seasons={state.seasons} episodes={state.episodes} />
     </div>
   );
 };

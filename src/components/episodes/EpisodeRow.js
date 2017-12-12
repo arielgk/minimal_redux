@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const EpisodeRow = ({id,title,parentId})=>{
   return (
-    <div className="episodes">---- {title}</div>
+    <div className="episodes">{title}</div>
   )
 }
 

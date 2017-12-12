@@ -6,7 +6,7 @@ import Episodes from '../episodes/episodes';
 const ItemRow =( {id, title,episodes  })=>{
 
 return (
-  <div>{ title} 
+  <div className="season-row">{ title} 
   <br />
  <Episodes parentId={id}/>
   </div>

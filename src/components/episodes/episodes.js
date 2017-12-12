@@ -9,7 +9,8 @@ import './Episodes.css';
 const Episodes = ({ state, actions }) => {
   console.log(actions);
   return(
-    <div>
+    <div className="episodes">
+
       <EpisodeList episodes={state.episodes} parentId={state.parentId} 
         addEpisode={item => {
           actions.addItem(item);

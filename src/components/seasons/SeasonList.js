@@ -4,8 +4,8 @@ import SeasonRow from './SeasonRow';
 
 const SeasonList =({seasons,episodes})=>{
   return(
-    <div>
-      <h2>Seasons:</h2>
+    <div >
+      <h3>Seasons:</h3>
       {seasons.map(season=>
         <SeasonRow key={season.id} {...season } episodes={episodes}/>
         )}

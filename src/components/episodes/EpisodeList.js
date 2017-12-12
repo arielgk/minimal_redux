@@ -7,6 +7,8 @@ import AddEpisode from './AddEpisode';
 const EpisodeList = ({ episodes, parentId,addEpisode}) => {
   return (
     <div>
+      <h4>Episodes</h4>  
+
       {episodes.map(episode =>
           <EpisodeRow {...episode}/>
       )

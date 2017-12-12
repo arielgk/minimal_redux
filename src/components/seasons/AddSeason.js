@@ -5,7 +5,7 @@ import shortId from "shortid";
 const AddSeason = ({ onSave }) => {
   let input;
   return (
-    <div>
+    <div className="add-season">
       <input
         type="text"
         ref={node => {

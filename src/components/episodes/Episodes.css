@@ -1,4 +1,7 @@
 .episodes{
-  margin-left:0px;
+  margin-left:20px;
+  padding:0px 0;
+}
+.add-episode{
   padding:10px 0;
 }
