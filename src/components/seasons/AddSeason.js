@@ -1,7 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import shortId from "shortid";
 
-const AddItem = ({ onSave }) => {
+const AddSeason = ({ onSave }) => {
   let input;
   return (
     <div>
@@ -15,7 +16,7 @@ const AddItem = ({ onSave }) => {
         type="submit"
         value="send"
         onClick={() => {
-          onSave({ id: input.value, title: input.value });
+          onSave({ id: shortId.generate(), title: input.value });
           input.value = "";
         }}
       />
@@ -23,4 +24,4 @@ const AddItem = ({ onSave }) => {
   );
 };
 
-export default AddItem;
+export default AddSeason;

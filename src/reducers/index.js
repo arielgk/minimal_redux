@@ -1,8 +1,10 @@
 import { combineReducers }from 'redux';
-import items from './itemsReducer';
+import seasons from './seasonsReducer';
+import episodes from './episodesReducer';
 
 const rootReducer = combineReducers({
-  items:items
+  seasons: seasons,
+  episodes:episodes
 })
 
 

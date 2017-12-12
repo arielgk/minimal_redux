@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Items from './items/Items';
+import Seasons from './seasons/seasons';
 
 
 const App = (state) => {
   return(
   <div >
     <h2>Start editing to see some magic happen {'\u2728'}</h2>
-    <Items />
+    <Seasons />
   </div>)
 }
 
