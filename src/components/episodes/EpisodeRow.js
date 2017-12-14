@@ -9,9 +9,9 @@ const EpisodeRow = ({id,title,parentId})=>{
 }
 
 EpisodeRow.propTypes = {
-  id:PropTypes.number.isRequired,
+  id:PropTypes.string.isRequired,
   title:PropTypes.string.isRequired,
-  parentId:PropTypes.number.isRequired
+  parentId:PropTypes.string.isRequired
 }
 
 export default EpisodeRow;

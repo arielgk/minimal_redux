@@ -16,7 +16,7 @@ return (
 }
 
 ItemRow.propTypes ={
-  id:PropTypes.number.isRequired,
+  id:PropTypes.string.isRequired,
   title:PropTypes.string.isRequired,
   episodes:PropTypes.array.isRequired
 

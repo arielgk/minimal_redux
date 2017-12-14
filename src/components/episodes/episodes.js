@@ -7,7 +7,6 @@ import EpisodeList from './EpisodeList';
 import './Episodes.css';
 
 const Episodes = ({ state, actions }) => {
-  console.log(actions);
   return(
     <div className="episodes">
 

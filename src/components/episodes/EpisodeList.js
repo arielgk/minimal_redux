@@ -10,7 +10,7 @@ const EpisodeList = ({ episodes, parentId,addEpisode}) => {
       <h4>Episodes</h4>  
 
       {episodes.map(episode =>
-          <EpisodeRow {...episode}/>
+          <EpisodeRow  key={ episode.id} {...episode}/>
       )
       }
       <AddEpisode addEpisode={addEpisode } parentId={parentId}/>

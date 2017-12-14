@@ -16,7 +16,7 @@ const SeasonList =({seasons,episodes})=>{
 
 
 SeasonList.propTypes ={
-  items:PropTypes.array.isRequired,
+  seasons:PropTypes.array.isRequired,
   episodes:PropTypes.array.isRequired
 }
 

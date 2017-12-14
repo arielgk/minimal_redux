@@ -8,7 +8,6 @@ import AddSeason from "./AddSeason";
 import './Seasons.css';
 
 const Seasons = ({ state, actions }) => {
-  console.log(actions);
 
   return (
     <div >
